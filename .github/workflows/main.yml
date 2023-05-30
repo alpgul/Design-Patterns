@@ -3,8 +3,6 @@ name: Node.js CI
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   Creational_Pattern:
@@ -20,3 +18,11 @@ jobs:
           node-version: 18.x
       - name: Builder Pattern
         run: node creational/builder.js
+      - name: Abstract Factory Pattern
+        run: node creational/abstract-factory.js
+      - name: Factory Pattern
+        run: node creational/factory.js
+      - name: Prototype Pattern
+        run: node creational/prototype.js
+      - name: Singleton Pattern
+        run: node creational/singleton.js
