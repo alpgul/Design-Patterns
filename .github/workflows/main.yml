@@ -1,5 +1,8 @@
  my_job:
     runs-on: ubuntu-latest
+    container: node:16
     steps:
       - name: Run Builder Example
-        run: node creational/builder.js
+        run: |
+          node --version
+          npm --version
