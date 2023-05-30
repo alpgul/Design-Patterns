@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 jobs:
-  Creational Pattern:
+  Creational_Pattern:
 
     runs-on: ubuntu-latest
 
