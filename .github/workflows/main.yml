@@ -26,3 +26,29 @@ jobs:
         run: node creational/prototype.js
       - name: Singleton Pattern
         run: node creational/singleton.js
+        
+  Structural_Pattern:
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - name: Adapter Pattern
+        run: node structural/adapter.js
+      - name: Bridge Pattern
+        run: node structural/bridge.js
+      - name: Composite Pattern
+        run: node structural/composite.js
+      - name: Decorator Pattern
+        run: node structural/decorator.js
+      - name: Facede Pattern
+        run: node structural/facede.js
+      - name: Flyweight Pattern
+        run: node structural/flyweight.js
+      - name: Proxy Pattern
+        run: node structural/proxy.js
