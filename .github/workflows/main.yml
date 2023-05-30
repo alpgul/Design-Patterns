@@ -1,4 +1,6 @@
- my_job:
+on:push
+jobs:
+my_job:
     runs-on: ubuntu-latest
     container: node:16
     steps:
