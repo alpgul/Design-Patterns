@@ -19,4 +19,4 @@ jobs:
         with:
           node-version: 18.x
       - name: Builder Pattern
-      - run: node creational/builder.js
+        run: node creational/builder.js
