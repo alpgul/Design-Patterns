@@ -46,8 +46,8 @@ jobs:
         run: node structural/composite.js
       - name: Decorator Pattern
         run: node structural/decorator.js
-      - name: Facede Pattern
-        run: node structural/facede.js
+      - name: Facade Pattern
+        run: node structural/facade.js
       - name: Flyweight Pattern
         run: node structural/flyweight.js
       - name: Proxy Pattern
